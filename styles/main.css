@@ -42,6 +42,8 @@ body {
 body {
   background: linear-gradient(to bottom right, var(--background-light), var(--background-dark));
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   background-attachment: fixed;
 }
 
@@ -151,6 +153,7 @@ body {
 
 @media screen and (max-width: 900px) {
   .app-list__item {
+    font-size: min(1.5rem, 5vw);
     width: 35vw;
     height: 20vw;
   }
