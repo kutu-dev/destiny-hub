@@ -7,6 +7,6 @@ jobs:
       - name: HTML/CSS/JS Minifier
         uses: docker://devatherock/minify-js:1.0.3
         with:
-          directory: './src'      # Optional
-          output: './docs'  # Optional
+          directory: '${{ github.workspace }}/src'      # Optional
+          output: '${{ github.workspace }}/docs'  # Optional
           add_suffix: false     # Optional
