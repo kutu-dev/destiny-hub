@@ -161,12 +161,11 @@ body {
   transition: border-radius 0.7s, transform 0.5s;
   display: flex;
   overflow: hidden;
-  position: relative;
 }
 
 @media screen and (max-width: 900px) {
   .app-list__item {
-    font-size: min(1.5rem, 5vw);
+    font-size: min(2rem, 5vw);
     width: 35vw;
     height: 20vw;
   }
@@ -190,10 +189,6 @@ body {
 
 .app-list__image {
   border-radius: 8px;
-  margin: 1rem;
-  position: absolute;
-  top: 0;
-  right: 0;
   aspect-ratio: 1/1;
   width: 30%;
   align-self: baseline;
@@ -208,5 +203,5 @@ body {
 .app-list__item:hover > .app-list__image {
   width: 45%;
   margin: 0;
-  transform: translate(-55%, 15%);
+  transform: translate(-80%, 15%);
 }
