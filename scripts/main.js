@@ -30,6 +30,11 @@ const jokeQuoteArray = [
   "An MIT investigation indicates that the titans have Crayola as their favorite company",
   "I hate Destiny 2, it's my favorite game",
   "Fun fact: Ikora has the longest haircut out the 3 vanguards",
+  "Somehow Warframe is better",
+  "Rat King Enjoyer",
+  "Where is tangled shore?",
+  "I'm ordering Domino's - Zavala",
+  "Why Don't You Discover Some Bitches? - Xivu Arath",
 ];
 
 const randomIndexQuote = Math.floor(Math.random() * jokeQuoteArray.length);
