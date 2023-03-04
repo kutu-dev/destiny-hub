@@ -4,6 +4,7 @@ jobs:
   build:
     runs-on: ubuntu-latest      # Docker-based github actions have to run on a linux environment
     steps:
+      - uses: actions/checkout@v2
       - name: HTML/CSS/JS Minifier
         uses: docker://devatherock/minify-js:1.0.3
         with:
