@@ -3,13 +3,13 @@
 
 ![Destiny Hub logo](./logo.png)
 
-_**Tip:** You can set it as the default website in the Steam overlay browser and access to the apps easily without stop playing._
-
 <h2>
 <a href="https://kutu-dev.github.io/destiny-hub/">
 Go to the website!
 </a>
 </h2>
+
+_**Tip:** You can set it as the default website in the Steam overlay browser and access to the apps easily without stop playing._
 
 ## Author
 
