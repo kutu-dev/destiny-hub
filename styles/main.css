@@ -49,6 +49,7 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  margin-top: 2rem;
 }
 
 .header {
@@ -57,7 +58,7 @@ body {
   font-family: "Montserrat", sans-serif;
   display: flex;
   justify-content: center;
-  margin: 2rem 4rem;
+  margin: 0rem 4rem 2rem 4rem;
   flex-direction: column;
 }
 
@@ -141,7 +142,6 @@ body {
   flex-wrap: wrap;
   gap: 2.5rem;
   justify-content: center;
-  margin-bottom: 10vw;
 }
 
 .app-list__link {
@@ -151,24 +151,15 @@ body {
 .app-list__item {
   font-family: "Inter", sans-serif;
   font-weight: bold;
-  padding: 1rem;
-  font-size: min(1.8rem, 1.5vw);
+  font-size: min(2rem, 1.5vw);
   width: 14vw;
   height: 8vw;
   color: var(--text-white);
   background-color: var(--background-dark);
   border-radius: 18px;
   transition: border-radius 0.7s, transform 0.5s;
-  display: flex;
   overflow: hidden;
-}
-
-@media screen and (max-width: 900px) {
-  .app-list__item {
-    font-size: min(2rem, 5vw);
-    width: 35vw;
-    height: 20vw;
-  }
+  position: relative;
 }
 
 .app-list__item:focus,
@@ -177,22 +168,40 @@ body {
   transform: translate(0%, -10%);
 }
 
-.app-list__item:active {
-  transform: translate(0%, -200%);
+@media screen and (max-width: 1200px) {
+  .app-list__item {
+    font-size: min(2rem, 5vw);
+    width: 25vw;
+    height: 15vw;
+  }
 }
 
-.app-list__text {
-  width: 75%;
-  align-self: end;
-  transition: transform 0.2s, opacity 0.3s;
+@media screen and (max-width: 900px) {
+  .app-list__item {
+    font-size: min(2rem, 5vw);
+    width: 60vw;
+    height: 25vw;
+  }
 }
 
 .app-list__image {
+  position: absolute;
+  margin: 1rem;
+  top: 0;
+  right: 0;
+  width: 30%;
   border-radius: 8px;
   aspect-ratio: 1/1;
-  width: 30%;
-  align-self: baseline;
   transition: width 0.4s, transform 0.4s, margin 0.4s;
+}
+
+.app-list__text {
+  max-width: 60%;
+  margin: 1rem;
+  position: absolute;
+  transition: transform 0.4s, opacity 0.3s;
+  bottom: 0;
+  left: 0;
 }
 
 .app-list__item:hover > .app-list__text {
@@ -202,6 +211,5 @@ body {
 
 .app-list__item:hover > .app-list__image {
   width: 45%;
-  margin: 0;
-  transform: translate(-80%, 15%);
+  transform: translate(-50%, 0%);
 }
