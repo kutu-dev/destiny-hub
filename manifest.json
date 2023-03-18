@@ -2,13 +2,13 @@
   "name": "Destiny Hub",
   "icons": [
     {
-        "src": "./images/web-logos/192.png",
+        "src": "./images/web-logos/manifest-192.png",
         "sizes": "192x192",
         "type": "image/png",
         "purpose": "any maskable"
     },
     {
-        "src": "./images/web-logos/512.png",
+        "src": "./images/web-logos/manifest-512.png",
         "sizes": "512x512",
         "type": "image/png",
         "purpose": "any maskable"
