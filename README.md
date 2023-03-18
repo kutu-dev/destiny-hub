@@ -1,5 +1,6 @@
 # Destiny Hub
-> A minimalist static website with the most important websites for Destiny 2.
+> A minimalist static website with links to useful websites for 
+Destiny 2. 
 
 ![Destiny Hub logo](./images/web-logos/icon.svg)
 
