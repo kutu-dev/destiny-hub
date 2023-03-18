@@ -40,24 +40,3 @@ const jokeQuoteArray = [
 
 const randomIndexQuote = Math.floor(Math.random() * jokeQuoteArray.length);
 jokeQuote.textContent = `${jokeQuoteArray[randomIndexQuote]}`;
-
-// Set favicon according the color mode
-
-const usesDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
-const favicon = document.getElementById("favicon");
-
-function setFavicon(isDarkMode) {
-  if (isDarkMode) {
-    favicon.href = "./images/favicon-dark-mode.ico";
-  } else {
-    favicon.href = "./images/favicon-white-mode.ico";
-  }
-}
-
-window
-  .matchMedia("(prefers-color-scheme: dark)")
-  .addEventListener("change", (event) => setFavicon(event.matches));
-
-setFavicon(usesDarkMode);
-
-console.log("")

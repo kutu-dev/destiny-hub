@@ -1,7 +1,7 @@
 # Destiny Hub
 > A minimalist static website with the most important websites for Destiny 2.
 
-![Destiny Hub logo](./logo.png)
+![Destiny Hub logo](./images/web-logos/icon.svg)
 
 <h2>
     <a href="https://kutu-dev.github.io/destiny-hub/">
