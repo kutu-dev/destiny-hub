@@ -13,6 +13,6 @@ _**Tip:** You can set it as the default website in the Steam overlay browser and
 
 ## Author
 
-Created with :heart: by [Kutu](https://kutu-dev.github.io/).
+Created with :heart: by [Kutu](https://kutu-dev.github.io).
 > - GitHub - [kutu-dev](https://github.com/kutu-dev)
 > - Twitter - [@kutu_dev](https://twitter.com/kutu_dev)
