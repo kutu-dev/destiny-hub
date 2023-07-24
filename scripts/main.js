@@ -35,7 +35,11 @@ const jokeQuoteArray = [
   "Where is tangled shore?",
   '"I\'m ordering Domino\'s" - Zavala',
   '"Why Don\'t You Discover Some Bitches?" - Xivu Arath',
-  '"The Light lives in all places, in all things. You can block it, even try to trap it, but the Light will find its way." - The Speaker'
+  '"The Light lives in all places, in all things. You can block it, even try to trap it, but the Light will find its way." - The Speaker',
+  'Why is Slone more import than Ikora?',
+  'Radial Mast: 1 - Rohan: 0',
+  'Crow has no bitches',
+  'Cayde-6 has joined the party',
 ];
 
 const randomIndexQuote = Math.floor(Math.random() * jokeQuoteArray.length);
